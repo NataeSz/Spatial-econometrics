@@ -17,7 +17,8 @@ Macierz <b>W</b> jest macierzą kwadratową o wymiarze równym liczbie regionów
 
 ## Testowanie procesów przestrzennych
 Badany model regresji liniowej opisuje wpływ liczby ludności, PKB per capita oraz współczynnika zatrudnienia osób w wieku 15-64 lat na liczbę zgłoszeń patentowych na milion mieszkańców regionu.<br>
-```Coefficients:
+```
+Coefficients:
               Estimate Std. Error t value Pr(>|t|)    
 (Intercept) -2.752e+02  7.510e+01  -3.665 0.000861 ***
 Population   4.816e-06  2.540e-06   1.896 0.066761 .  
@@ -27,19 +28,23 @@ Multiple R-squared:  0.5645
 ```
 Na poziomie istotności równym 0,1 wszystkie zmienne niezależne są istotne i dodatnio skorelowane ze zmienną objaśnianą.<br><br>
 #### Test Globalny i Lokalny Morana
-```Moran I statistic standard deviate = -0.71645, p-value = 0.7631
+```
+Moran I statistic standard deviate = -0.71645, p-value = 0.7631
 alternative hypothesis: greater
 ```
 Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zerowej mówiącej o braku autokorelacji przestrzennej.<br><br>
 ![Moran's plot](https://github.com/NataeSz/Spatial-econometrics/blob/master/imgs/Moran.jpg?raw=true)<br>
 #### Test Gearyego
-```Geary C statistic standard deviate = -0.96634, p-value = 0.8331
+```
+Geary C statistic standard deviate = -0.96634, p-value = 0.8331
 alternative hypothesis: Expectation greater than statistic
 ```
 Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zerowej mówiącej o braku autokorelacji przestrzennej.<br><br>
 
 #### Test liczby połączeń
-`Std. deviate for TRUE = -0.57745, p-value = 0.7182`
+```
+Std. deviate for TRUE = -0.57745, p-value = 0.7182
+```
 Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zerowej mówiącej o braku autokorelacji przestrzennej.<br><br>
 #### Analiza wrażliwości testu liczby połączeń
 ![Join count test](https://github.com/NataeSz/Spatial-econometrics/blob/master/imgs/test_liczby_polaczen.jpg?raw=true)<br>
@@ -49,7 +54,8 @@ Dla pojedynczych wartości progu podziału reszt odrzucimy hipotezę zerową na 
 ## Proste modele regresji
 ## SAR SEM SLX models
 #### Model SAR
-```SAR
+```
+SAR
 Type: lag
 Coefficients: (asymptotic standard errors)
               Estimate Std. Error t value Pr(>|t|)    
@@ -69,7 +75,8 @@ Na poziomie istotności równym 0.1 brak podstaw do odrzucenia H0 mówiącej o t
 Na podstawie modelu SAR nie mamy do czynienia z modelem przestrzennym SAR, ujemne ρ jest akceptowalne.<br>
 
 #### Model SEM
-```SEM
+```
+SEM
 Type: error
 Coefficients: (asymptotic standard errors)
               Estimate Std. Error t value Pr(>|t|)    
