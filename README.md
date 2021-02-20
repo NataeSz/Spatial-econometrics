@@ -107,8 +107,8 @@ Wektor parametrów przy opóźnieniach przestrzennych <b>θ</b> różni się zna
 * [https://ec.europa.eu/eurostat/web/products-datasets/-/tgs00007](https://ec.europa.eu/eurostat/web/products-datasets/-/tgs00007)
 * [http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts#nuts13](http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts#nuts13)
 <br><br>
-*R Core Team (2020).*<br>
-*R: A language and environment for statistical computing. *<br>
-*R Foundation for Statistical Computing, Vienna, Austria. *<br>
-*URL https://www.R-project.org/.*<br>
+*R Core Team (2020).* <br>
+*R: A language and environment for statistical computing.* <br>
+*R Foundation for Statistical Computing, Vienna, Austria.* <br>
+*URL https://www.R-project.org/.* <br>
 <br>
