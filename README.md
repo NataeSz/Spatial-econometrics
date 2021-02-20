@@ -37,9 +37,9 @@ Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zero
 alternative hypothesis: Expectation greater than statistic
 ```
 Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zerowej mówiącej o braku autokorelacji przestrzennej.<br><br>
+
 #### Test liczby połączeń
-```Std. deviate for TRUE = -0.57745, p-value = 0.7182
-```
+`Std. deviate for TRUE = -0.57745, p-value = 0.7182`
 Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zerowej mówiącej o braku autokorelacji przestrzennej.<br><br>
 #### Analiza wrażliwości testu liczby połączeń
 ![Join count test](https://github.com/NataeSz/Spatial-econometrics/blob/master/imgs/test_liczby_polaczen.jpg?raw=true)<br>
