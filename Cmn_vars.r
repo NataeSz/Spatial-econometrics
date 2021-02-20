@@ -39,4 +39,3 @@ mapa <- mapa[mapa@data$country == "DE", ]
 mapa <- mapa[mapa@data$NUTS_ID %in% unique(df$geo),]
 # Merge the map and data
 spatial_data <- merge(y = df, x = mapa, by.y = "geo", by.x = "NUTS_ID")
-rm(mapa)
