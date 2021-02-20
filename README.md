@@ -12,7 +12,7 @@ Zmienna przedstawiona w modelach odnosi się do wskaźnika zgłoszeń patentowyc
 
 ## Macierze wag przestrzennych - Spatial weights matrices
 Macierz <b>W</b> jest macierzą kwadratową o wymiarze równym liczbie regionów. Jej i-ty wiersz interpretujemy jako wektor wag, które określają wpływ innych regionów na i-ty region.<br>
-![Centroids of regions](https://github.com/NataeSz/Spatial-econometrics/tree/master/imgs/centroids.jpeg)
+![Centroids of regions](https://github.com/NataeSz/Spatial-econometrics/blob/master/imgs/centroids.jpeg?raw=true)
 <br>
 
 ## Testowanie procesów przestrzennych - Testing for spatial effects
@@ -31,7 +31,7 @@ Na poziomie istotności równym 0,1 wszystkie zmienne niezależne są istotne i 
 alternative hypothesis: greater
 ```
 Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zerowej mówiącej o braku autokorelacji przestrzennej.<br><br>
-![Moran's plot](https://github.com/NataeSz/Spatial-econometrics/tree/master/imgs/Moran.jpg)<br>
+![Moran's plot](https://github.com/NataeSz/Spatial-econometrics/blob/master/imgs/Moran.jpg?raw=true)<br>
 #### Test Gearyego
 ```Geary C statistic standard deviate = -0.96634, p-value = 0.8331
 alternative hypothesis: Expectation greater than statistic
@@ -42,7 +42,7 @@ Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zero
 ```
 Na każdym typowym poziomie istotności brak podstaw do odrzucenia hipotezy zerowej mówiącej o braku autokorelacji przestrzennej.<br><br>
 #### Analiza wrażliwości testu liczby połączeń
-![Join count test](https://github.com/NataeSz/Spatial-econometrics/tree/master/imgs/test_liczby_polaczen.jpg)<br>
+![Join count test](https://github.com/NataeSz/Spatial-econometrics/blob/master/imgs/test_liczby_polaczen.jpg?raw=true)<br>
 Dla pojedynczych wartości progu podziału reszt odrzucimy hipotezę zerową na rzecz alternatywnej mówiącej o występowaniu autokorelacji przestrzennej reszt.<br>
 
 
